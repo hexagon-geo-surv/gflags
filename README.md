@@ -3,6 +3,16 @@
 The documentation of the gflags library is available online at https://gflags.github.io/gflags/.
 
 
+02 December 2025
+----------------
+
+I've just released gflags 2.2.3.
+
+This maintenance release includes a number of build system improvements for both Bazel and CMake. It adds support for Bzlmod to prepares for Bazel 9. For CMake users, it adds support for CMake 4.0 and BlackBerry QNX. A few bugs in the library itself have also been fixed, including undefined behavior in option processing. The CI infrastructure has also been migrated to GitHub Actions.
+
+Please report any further issues with this release using the GitHub issue tracker.
+
+
 11 November 2018
 ----------------
 
